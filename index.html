@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music wedsite</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="/favicon.png"/>
+
+    <script
+      src="https://kit.fontawesome.com/d97efd3022.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <div class="logo">SSV Beats</div>
+
+        <ul>
+          <a href="#hero"> <li>Overview</li></a>
+          <a href="#music"> <li>Music</li></a>
+          <a href="#video"> <li>Video</li></a>
+          <a href="#gift"> <li>Gift Cards</li></a>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero-section" id="hero">
+        <div class="container">
+          <h1>SSV Beats</h1>
+          <h3>Your music, movies, and TV shows take center stage.</h3>
+          <p>
+            Welcome to our music website, where we celebrate the vibrant world
+            of sound and rhythm! Whether you’re a passionate listener, an
+            aspiring artist, or simply curious about the latest trends, we’ve
+            got something for everyone. Explore in-depth articles, reviews, and
+            interviews with your favorite musicians, discover new genres, and
+            connect with a community of fellow music lovers. Dive into playlists
+            curated just for you, stay updated with industry news, and find
+            resources to help you on your musical journey. Join us as we share
+            the joy of music and inspire creativity together!
+          </p>
+        </div>
+      </section>
+      <section class="music-section" id="music">
+        <div class="container">
+          <h2>
+            <span><i class="fa fa-music"></i></span>
+            Music
+          </h2>
+          <h4>
+            Discover new artists, curate your own playlists, and immerse
+            yourself in our extensive library. Whether you're looking to vibe at
+            home, pump up your workouts, or find the perfect soundtrack for your
+            day, our platform has you covered. Join us and elevate your
+            listening experience today!
+          </h4>
+          <div id="music-name"></div>
+          <div class="player-wrapper">
+            <button id="previous" onclick="handlePrevious()"><i class="fa-solid fa-backward-step"></i></button>
+            <button class="primary-btn" id="player" onclick="playMusic()">
+              <i class="fa-solid fa-play"></i>
+            </button>
+            <button id="next" onclick="handleNext()"><i class="fa-solid fa-forward-step"></i></button>
+          </div>
+
+          <p>
+            Orange music is avalable in my Audios. and for ios amd Android
+            devices.
+          </p>
+          <div class="ipad-iphone-img">
+            <img src="/images/ipad-iph.png" alt="ipad-iphone" />
+          </div>
+        </div>
+      </section>
+      <section class="about-music container">
+        <h3>The movie and TV collection you always wished for</h3>
+        <p>
+          Discover new artists, curate your own playlists, and immerse yourself
+          in our extensive library. Whether you're looking to vibe at home, pump
+          up your workouts, or find the perfect soundtrack for your day, our
+          platform has you covered. Join us and elevate your listening
+          experience today!
+        </p>
+        <button class="secondary-btn">Read More</button>
+        <div class="mac-img">
+          <img src="/images/mac2.png" alt="macbook" />
+        </div>
+      </section>
+      <section class="video-section" id="video">
+        <div class="cotainer">
+          <h3>
+            <a
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Temporibus sint quos libero distinctio facere eaque, obcaecati
+              debitis id aperiam repellat veniam aspernatur quibusdam corporis
+              cum. Aliquam recusandae maxime facilis sequi.</a
+            >
+          </h3>
+        </div>
+      </section>
+      <section class="gift-section container" id="gift">
+        <div class="gift-card">
+          <img src="/images/gift card.png" alt="gift card" />
+        </div>
+        <div class="gift-contain">
+          <h3>Gift Card</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate
+            recusandae quisquam odio nisi iusto laborum. Iste impedit veniam
+            magni repellendus dolorem rerum facere, quos repellat vero ad
+            perferendis hic minima inventore dolor corrupti odit ea accusamus
+            amet est distinctio labore! Eius officia consequuntur numquam
+            possimus quasi consequatur a incidunt. Expedita.
+          </p>
+          <p>Already have an Orange MyAudios Music Gift Crad?</p>
+          +
+          <hr />
+          <div>
+            <button class="secondary-btn">Redeemn</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="footer-upper">
+        <div class="container">
+          <div class="footer-links">
+            <h4>Shop & Learn</h4>
+            <ul>
+              <li>Music</li>
+              <li>Movies</li>
+              <li>Shows</li>
+              <li>Apps</li>
+              <li>Gift Cards</li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h4>Orange Store</h4>
+            <ul>
+              <li>Find a Store</li>
+              <li>Today at Orange</li>
+              <li>Financing</li>
+              <li>Orange Camp</li>
+              <li>Order Status</li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h4>Education & Business</h4>
+            <ul>
+              <li>Orange & Education</li>
+              <li>Shop for Collage</li>
+              <li>Orange & Business</li>
+              <li>Shop for Business</li>
+              <li>Jobs</li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h4>About Orange</h4>
+            <ul>
+              <li>Newsroom</li>
+              <li>Orange Leadership</li>
+              <li>Investors</li>
+              <li>Envents</li>
+              <li>Contact Orange</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="footer-lower">
+        <p>Copyright © 2022 Do Some Coding</p>
+      </section>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
